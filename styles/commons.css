@@ -1,0 +1,57 @@
+/* 헤더 */
+header {width: 1151px; margin: 0 auto;}
+header nav {
+    align-items: center;
+    height: 48px
+}
+header nav a {
+    margin-right: 16px;
+    font-size: 14px;
+    font-weight: 500;
+}
+header nav a img {width: 110px;} /*서울특별시 로고*/
+header nav .user_login {
+    float: right;
+    margin-top: 14px;
+}   
+header nav .user_login a {font-size: 14px;}
+header .h_left {
+    display: flex; align-items: center;
+    justify-content: space-between;
+    height: 119px;
+}
+header .h_left a {}
+header .h_left a img {color: #1e6cb3;}
+header .h_left #search {}
+header .h_left #search fieldset {
+    border: 3px solid #1e6cb3;
+    width: 370px; height: 47px;
+    align-items: center;
+    display: flex; justify-content: space-between;
+    padding: 0 12px;
+}
+header .h_left #search fieldset .search_text {}
+header .h_left #search fieldset a img {}
+header .h_left #search fieldset img {}
+header .h_left .h_right {display: flex; flex-flow: column nowrap;}
+header .h_left .h_right #lang_select {
+    border: 1px solid #1e6cb3;
+    width: 98px;
+}
+
+header .h_left .h_right .lang {margin-left: 50px;}
+header .h_left .h_right .lang #lang_select option {}
+header .h_left .h_right .lang a {
+    width: 28px; height: 28px;
+    padding: 3px 3px;
+    background-color: #1e6cb3;
+    color: #fff;
+}
+header .h_left .h_right .weather {}
+header .h_left .h_right .weather span:nth-child(1) {
+    font-size: 24px;
+}
+header .h_left .h_right .weather span {
+    display: flex; flex-flow: column nowrap;
+    font-size: 13px;
+}

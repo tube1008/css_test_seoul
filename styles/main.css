@@ -1,0 +1,30 @@
+/* 왼쪽이미지 */
+.visual {
+    width: 1151px; margin: 0 auto;
+    display: flex; flex-flow: row;
+    
+}
+.visual .banner_left {position: relative;}
+.visual .banner_left a {}
+.visual .banner_left a img {margin-right: 21px;}
+.visual .banner_left .close_btn {
+    position: absolute;
+    left: 703px; top: 307px; 
+    background-color: #1e6cb3;
+    padding: 4px 9px 5px 8px;
+    color: #fff; border-radius: 3px;
+}
+/* 오른쪽 이미지 */
+.visual .banner_right {
+    display: flex; flex-flow: column nowrap;
+}
+.visual .banner_right .corona {position: relative;}
+.visual .banner_right .corona img {}
+.visual .banner_right .corona .data {position: absolute; left: 100px; right: 100px;}
+.visual .banner_right .corona .data2 {color: #fff; position: absolute; left: 80px; bottom: 150px;}
+.visual .banner_right .corona .data3 {color: #fff; position: absolute; left: 245px; bottom: 150px;}
+.visual .banner_right .corona .data4 {color: #fff; position: absolute; left: 57px; bottom: 75px;}
+.visual .banner_right .corona .data5 {color: #fff; position: absolute; left: 186px; bottom: 75px;}
+.visual .banner_right .corona .data6 {color: #fff; position: absolute; left: 290px; bottom: 75px;}
+.visual .banner_right .traffic_banner {}
+.visual .banner_right .traffic_banner img {margin-top: -10px;}
